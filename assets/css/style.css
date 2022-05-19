@@ -1,0 +1,31 @@
+body{
+    animation: bg 1000ms linear infinite;
+}
+
+@keyframes bg {
+    0%{background-color: coral;}
+    25%{background-color: rgb(55, 192, 66);}
+    50%{background-color: cornflowerblue;}
+    70%{background-color: rgb(190, 78, 181);}
+    100%{background-color: coral;}
+    
+}
+
+@keyframes cubo{
+    0%{width: 0px; height: 0px;}
+    33%{width: 60px; height: 40px;}
+    66%{width: 85px; height: 48px;}
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.cubo{
+    animation: cubo 500ms linear;
+
+}
+
+a{
+    margin-bottom: 15px;
+}
